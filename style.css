@@ -1,0 +1,96 @@
+body {
+	background-color: #E6E6EA;
+	color: white;
+	font-size: 17px;
+}
+
+
+h1 {
+	font-family: Dosis;
+	color:white;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: Playfair;
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: Playfair;
+	color: #D6A2AD;
+	text-decoration: none;
+	padding: 15px 20px;
+	background-color: #BF0603
+	border-radius: 4px;
+}
+
+a: hover {
+	color: pink;
+}
+
+/* Custom design with class*/
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+}
+
+.card-blue {
+	background-color: rgb(3,94,123);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+
+.btn-pink: hover {
+	background-color: #EEC0C6
+	color: white;
+}
+
+.list-horizontal {
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-horizontal i: hover {
+	color: pink;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
